@@ -35,3 +35,54 @@ A password is valid only if the following:
   A Cellphone Number is valid only if:
   - It starts with "+27"
   - There are no more than 12 numbers
+
+# ST10529653-PROG5121-PRT2
+PROG5121/PRT2
+
+## PROJECT INFORMATION
+THREE classes were created 
+login,MainAPP and MessageTest 
+QuickApp was being created
+a simple messaging app 
+
+## features
+ while loop
+ for loop
+ if else and arrays
+ string manipulation and methods and conditions
+
+ ## Valid Message
+ 10 digit ID
+ must start with "+27"
+ message must not be greater than 250 chars
+
+ ## cell phone check
+ must start with +27
+ should be less than equal to 13
+
+ # ST10529653-PROG5121-Part3
+ ## Student Information
+- Name: Zanda Lwana
+- Student Number: ST10529653
+- Module: PROG5121
+
+# PROG5121 POE - QuickChat App Part 3
+
+Java console application for Part 3 of the PROG5121 POE. Extends Part 1 + Part 2 with JSON storage, search, delete, and reporting features.
+
+## 1. Features
+
+### Part 1: User Registration & Login
+- Username validation: must contain `_` and be ≤5 characters
+- Password validation: ≥8 chars, 1 capital, 1 digit, 1 special char, no spaces
+- SA cell number validation: starts with `+27` and 12 characters total
+- Register + Login methods with status messages
+
+### Part 2: Message Composition
+- Message length check: max 250 characters
+- Recipient validation: `+27` format
+- Message ID generation: 10-digit random number
+- Message Hash: `ID:first2:messageNo:firstWordlastWord` in uppercase
+- Send options: Send 
+ 
+ 
